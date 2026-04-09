@@ -33,7 +33,7 @@ const Hero = () => {
 
             <p className="text-muted-foreground text-lg mb-2 font-medium">Hello, I'm</p>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-3 leading-none tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
-              Asad Khan
+              Asad Hussain
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
               <span className="gradient-text">MERN Stack</span> Developer
