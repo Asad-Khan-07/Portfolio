@@ -26,7 +26,7 @@ const Footer = () => (
         </div>
 
         <p className="text-xs text-muted-foreground flex items-center gap-1">
-          Built with <Heart size={11} className="text-red-500 fill-red-500" /> using React, TypeScript & Tailwind
+          Built with <Heart size={20} className="text-red-500 fill-red-500" /> using React, TypeScript & Tailwind
         </p>
       </div>
     </div>
