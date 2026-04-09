@@ -15,7 +15,7 @@ const Footer = () => (
           {[
             { icon: Github,    href: 'https://github.com/Asad-Khan-07',                label: 'GitHub' },
             { icon: Instagram, href: 'https://www.instagram.com/ww.w.asadkhan905/',     label: 'Instagram' },
-            { icon: Linkedin, href: 'https://www.linkedin.com/in/asad-khan-55519836b',     label: 'Linkden' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/asad-hussain-55519836b',     label: 'Linkden' },
           ].map((s, i) => (
             <a key={i} href={s.href} target="_blank" rel="noopener noreferrer"
               className="w-9 h-9 rounded-lg bg-secondary border border-border/60 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-all duration-300"
