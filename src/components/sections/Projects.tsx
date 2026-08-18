@@ -25,9 +25,9 @@ const projects = [
     featured: false,
   },
   {
-    title: 'Task Flow',
-    description: 'Interactive weather dashboard with live conditions, forecasts and maps via public API.',
-    tags: ['React + vite', 'Tailwind', 'Node.js','Express.js','Mongo DB'],
+    title: 'Shine Tech Academy',
+    description: 'A modern academy website with course listings, detailed program info, and a seamless enrollment form for students to sign up and get started.',
+    tags: ['React + vite', 'Tailwind', 'Supabase','Face API','React Bits'],
     image: Screenshotthree,
     link: 'https://taskflow-frontend-hazel.vercel.app/',
     github: 'https://github.com/Asad-Khan-07/Taskflow-frontend',
@@ -56,6 +56,8 @@ const tagColors: Record<string, string> = {
   'CSS3': 'text-indigo-400 bg-indigo-400/10 border-indigo-400/20',
   'Node.js': 'text-lime-400 bg-lime-400/10 border-lime-400/20',
   'Express.js': 'text-slate-400 bg-slate-400/10 border-slate-400/20',
+  'Face API': 'text-slate-400 bg-slate-400/10 border-slate-400/20',
+  'React Bits': 'text-slate-400 bg-slate-400/10 border-slate-400/20',
   'Mongo DB': 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
 };
 
@@ -90,8 +92,8 @@ const Projects = () => (
               {/* Image */}
               <div className="relative h-52 overflow-hidden bg-secondary">
                 {project.featured && (
-                  <div className="absolute top-3 left-3 z-10 px-3 py-1 rounded-full gradient-primary text-white text-xs font-bold shadow-lg">
-                    ⭐ Featured
+                  <div className="absolute flex items-center justify-center gap-1.5 top-3 left-3 z-10 px-3 py-1 rounded-full gradient-primary text-white text-xs font-bold shadow-lg">
+                    <Star size={13} className="text-yellow-500"/> Featured
                   </div>
                 )}
                 <img

@@ -1,4 +1,4 @@
-import { Code2, Palette, Zap, Database } from 'lucide-react';
+import { Code2, Palette, Zap, Database, CheckCircle } from 'lucide-react';
 
 const About = () => {
   const highlights = [
@@ -46,7 +46,7 @@ const About = () => {
                   { label: 'Location', value: 'Hyderabad, Sindh' },
                   { label: 'Focus',    value: 'MERN Stack' },
                   { label: 'Backend',  value: 'Node + Supabase' },
-                  { label: 'Status',   value: 'Open to work ✓' },
+                  { label: 'Status',   value: 'Open to work' },
                 ].map((fact, i) => (
                   <div key={i} className="p-4 rounded-xl bg-card border border-border/50">
                     <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider mb-1">{fact.label}</p>

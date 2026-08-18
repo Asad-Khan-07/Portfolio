@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Instagram, Linkedin, Sparkles } from 'lucide-react';
+import { ArrowDown, Github, Instagram, Linkedin, Sparkles, CheckCircle } from 'lucide-react';
 import Developer from '/assets/Developer.png';
 import Resume from '/assets/Resume.pdf';
 
@@ -47,8 +47,8 @@ const Hero = () => {
             <div className="flex gap-8 mb-10">
               {[
                 { number: '4+', label: 'Projects Built' },
-                { number: '1+', label: 'Years Coding' },
-                { number: '10+', label: 'Technologies' },
+                { number: '1+', label: 'Year Experience' },
+                { number: '25+', label: 'Technologies' },
               ].map((stat, i) => (
                 <div key={i}>
                   <div className="text-2xl font-black gradient-text" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.number}</div>
@@ -59,7 +59,7 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
-              <a href={Resume} download="Asad-Khan-Resume.pdf">
+              <a href={Resume} download="Asad-Hussain-Resume.pdf">
                 <button className="gradient-primary text-white px-7 py-3.5 rounded-xl font-semibold shadow-lg hover:opacity-90 hover:-translate-y-0.5 hover:shadow-primary/30 hover:shadow-xl transition-all duration-300">
                   Download CV
                 </button>
@@ -122,9 +122,9 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Supabase badge */}
+              {/* MERN Stack badge */}
               <div className="absolute -top-4 -right-4 glass-card border border-white/10 rounded-2xl px-3 py-2 shadow-xl">
-                <span className="text-xs font-bold text-green-400">Supabase ✓</span>
+                <span className="text-xs font-bold text-green-400 flex items-center gap-1">MERN Stack <CheckCircle size={12} /></span>
               </div>
             </div>
           </div>
